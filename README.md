@@ -1,2 +1,0 @@
-# jdedmondt.github.io
-website
