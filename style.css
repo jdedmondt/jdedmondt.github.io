@@ -26,6 +26,18 @@ hr {
 	width: 80%;
 }
 
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .content_section hr {
 	border: 0;
 	border-top: 1px solid #c9c7c7;
