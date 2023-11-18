@@ -44,6 +44,17 @@
 		text-align: left;
 		font-size: 24px;
 	}
+	.column {
+		float: left;
+		width: 50%;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 </style>
 
 </head>
@@ -55,18 +66,36 @@
 <div class="content_section">
 	<h1 class="content_section_header">Стихотворение/Poetry</h1>
 	<hr>
-	<h2>До свиданья, мой друг, до свиданья</h2>
-	<p>
-	    До свиданья, мой друг, до свидания.<br>
-	    Милый мой, ты у меня в груди.<br>
-	    Предназначенное расставанье<br>
-	    Обешает встречу впереди.<br>
-	    <br>
-	    До свиданья, друг мой, без руки и слова,<br>
-	    Не грусти и не печаль бровей, --<br>
-	    В этой жизни умирать не ново,<br>
-	    Но и жить, конечно, не новой.<br>
-	</p>	
+	<div class="row">
+		<div class="column>
+		<h2>До свиданья, мой друг, до свиданья</h2>
+		<p>
+			До свиданья, мой друг, до свидания.<br>
+			Милый мой, ты у меня в груди.<br>
+			Предназначенное расставанье<br>
+			Обешает встречу впереди.<br>
+			<br>
+			До свиданья, друг мой, без руки и слова,<br>
+			Не грусти и не печаль бровей, --<br>
+			В этой жизни умирать не ново,<br>
+			Но и жить, конечно, не новой.<br>
+		</p>
+		</div>
+		<div class="column">
+		<h2>Goodbye, my friend, goodbye</h2>
+		<p>
+			Goodbye, my friend, goodbye.<br>
+			My love, you are in my heart.<br>
+			Our preordained parting<br>
+			Promises us to meet again.<br>
+			<br>
+			Goodbye, friend of mine, without handshake or words,<br>
+			Don't despair and furrow your brow,<br>
+			For in this life death is not new,<br>
+			Nor, of course, is living. 
+		</p>
+		</div>
+	</div>
 </div>
 
 </body>
