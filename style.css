@@ -23,6 +23,7 @@ hr {
 
 .return {
 	text-align: center;
+	display: inline-block;
 	font-size: 20px;
 }
 
